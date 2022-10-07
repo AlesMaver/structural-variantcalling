@@ -22,18 +22,18 @@ version 1.0
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import "tasks/bcftools.wdl" as bcftools
-import "tasks/bwa.wdl" as bwa
-import "tasks/clever.wdl" as clever
-import "tasks/common.wdl" as common
-import "tasks/delly.wdl" as delly
-import "tasks/duphold.wdl" as duphold
-import "tasks/gridss.wdl" as gridssTasks
-import "tasks/manta.wdl" as manta
-import "tasks/picard.wdl" as picard
-import "tasks/samtools.wdl" as samtools
-import "tasks/smoove.wdl" as smoove
-import "tasks/survivor.wdl" as survivor
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/bcftools.wdl" as bcftools
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/bwa.wdl" as bwa
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/clever.wdl" as clever
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/common.wdl" as common
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/delly.wdl" as delly
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/duphold.wdl" as duphold
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/gridss.wdl" as gridssTasks
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/manta.wdl" as manta
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/picard.wdl" as picard
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/samtools.wdl" as samtools
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/smoove.wdl" as smoove
+import "https://raw.githubusercontent.com/biowdl/tasks/c4b13ec67b0a4c293fa4ef58361e1516d5756270/survivor.wdl" as survivor
 
 workflow SVcalling {
     input {
